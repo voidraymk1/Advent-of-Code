@@ -9,7 +9,6 @@ let allLogs = []
 let result1 = 0;
 
 let crtRow = []
-let crtScreen = []
 let drawEnd = 40;
 let drawCycle = 0;
 
@@ -41,8 +40,6 @@ async function main() {
     })
 
     console.log('Part 1:', result1)
-
-    console.log(crtScreen)
 }
 
 function instructionCycle() {
